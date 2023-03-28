@@ -24,16 +24,16 @@ export default function Header() {
                     <nav className={styles.navbar + " " + (isMobileMenuOpen ? styles.navbarmobile : "")}>
                         <ul>
                             <li>
-                                <Link href="#link1" className={styles.active} scroll={false}>Link 1</Link>
+                                <Link href="/#link1" className={styles.active} scroll={false}>Link 1</Link>
                             </li>
                             <li>
-                                <Link href="#link2" scroll={false}>Link 2</Link>
+                                <Link href="/#link2" scroll={false}>Link 2</Link>
                             </li>
                             <li>
-                                <Link href="#link3" scroll={false}>Link 3</Link>
+                                <Link href="/#link3" scroll={false}>Link 3</Link>
                             </li>
                             <li>
-                                <Link href="#link4" scroll={false}>Link 4</Link>
+                                <Link href="/#link4" scroll={false}>Link 4</Link>
                             </li>
                             <li>
                                 <Link href="/book-a-demo-session" scroll={false}>Redirect to Demo Page</Link>
